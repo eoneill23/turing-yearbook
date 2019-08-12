@@ -1,0 +1,13 @@
+.personCard {
+  background-color: white;
+  border-radius: 5px;
+  margin: 2%;
+  padding: 20px;
+  width: 15%;
+}
+
+img {
+  border-radius: 5px;
+  height: 250px;
+  width: 200px;
+}
