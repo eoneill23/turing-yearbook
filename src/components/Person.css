@@ -6,6 +6,21 @@
   width: 15%;
 }
 
+.personName {
+  color: red;
+  font-weight: bold;
+}
+
+.personQuote {
+  font-size: .8em;
+  font-style: italic;
+}
+
+.personSaying {
+  color: #6395ED;
+  font-weight: bold;
+}
+
 img {
   border-radius: 5px;
   height: 250px;

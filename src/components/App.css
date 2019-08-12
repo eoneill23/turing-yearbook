@@ -24,3 +24,9 @@ h1 {
   padding: 10px;
   color: limegreen;
 }
+
+h2 {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 10px;
+  color: #6395ED;
+}

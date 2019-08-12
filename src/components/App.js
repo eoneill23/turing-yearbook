@@ -7,7 +7,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      staff: people.staff
+      staff: people.staff,
+      students: people.students
     }
   }
 
@@ -16,8 +17,10 @@ class App extends Component {
       <div className="App">
       <header className="App-header">
       <h1>Turing Yearbook</h1>
+      <h2>Staff</h2>
       </header>
         <Cohort people={this.state.staff}/>
+        <Cohort people={this.state.students}/>
       </div>
     );
   }
