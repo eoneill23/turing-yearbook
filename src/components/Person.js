@@ -1,6 +1,6 @@
 import React from 'react';
 import './Person.css';
-import { tsPropertySignature } from '@babel/types';
+// import { tsPropertySignature } from '@babel/types';
 
 let Person = ({name, quote, superlative, photo, id, deleteStudent, type}) => {
   let button;
@@ -12,11 +12,11 @@ let Person = ({name, quote, superlative, photo, id, deleteStudent, type}) => {
   }
 
   return (
-    <section className="personCard" key={id}>
+    <section className='personCard' key={id}>
       <img src={photo}></img>
-      <p className="personName">{name}</p>
-      <p className="personQuote">"{quote}"</p>
-      <p className="personSaying">{superlative}</p>
+      <p className='personName' contentEditable='true' suppressContentEditableWarning={true}>{name}</p>
+      <p className='personQuote' contentEditable='true' suppressContentEditableWarning={true}>"{quote}"</p>
+      <p className='personSaying' contentEditable='true' suppressContentEditableWarning={true}>{superlative}</p>
       {button}
     </section>
   )

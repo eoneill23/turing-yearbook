@@ -4,7 +4,7 @@ import './Cohort.css';
 
 let Cohort = (props) => {
 let peopleList = props.people.map(person => (
-  <Person 
+  <Person key={person.id}
     name={person.name}
     quote={person.quote}
     superlative={person.superlative}

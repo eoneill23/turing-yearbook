@@ -17,7 +17,7 @@ class App extends Component {
   }
 
   addStudent(newStudent) {
-    this.setState({students: [...people.students, newStudent]});
+    this.setState({students: [...this.state.students, newStudent]});
   }
 
   deleteStudent(id, type) {
@@ -31,12 +31,12 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
         <h1>Turing Yearbook</h1>
+          <NewStudentForm addStudent={this.addStudent}/>
         <h2>Staff</h2>
         </header>
           <Cohort people={this.state.staff} deleteStudent={this.deleteStudent} type={'staff'}/>
         <h2>Students</h2>
           <Cohort people={this.state.students} deleteStudent={this.deleteStudent} type={'students'}/>
-          <NewStudentForm addStudent={this.addStudent}/>
       </div>
     );
   }

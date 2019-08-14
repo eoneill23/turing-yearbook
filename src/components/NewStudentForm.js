@@ -16,11 +16,11 @@ class NewStudentForm extends Component {
 
   submitStudent = (event) => {
     event.preventDefault();
-    let newIdea = {
+    let newStudent = {
       id: Date.now(),
       ...this.state
     }
-    this.props.addStudent(newIdea);
+    this.props.addStudent(newStudent);
     this.setState({
       name: '',
       quote: '',
