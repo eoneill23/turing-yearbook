@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Person should match the snapshot with all data passed in correctly 1`] = `
+<section
+  className="personCard"
+  key="1"
+>
+  <img
+    src=""
+  />
+  <p
+    className="personName"
+    contentEditable="true"
+    suppressContentEditableWarning={true}
+  >
+    Travis
+  </p>
+  <p
+    className="personQuote"
+    contentEditable="true"
+    suppressContentEditableWarning={true}
+  >
+    "
+    Cheers
+    "
+  </p>
+  <p
+    className="personSaying"
+    contentEditable="true"
+    suppressContentEditableWarning={true}
+  >
+    Most likely to say cheers
+  </p>
+  <button
+    onClick={[Function]}
+    type="students"
+  >
+    Delete
+  </button>
+</section>
+`;
