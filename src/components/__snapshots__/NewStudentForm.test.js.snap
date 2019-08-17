@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form should match the snapshot with all the data passed in correctly 1`] = `
+<form>
+  <input
+    name="name"
+    onChange={[Function]}
+    placeholder="Student name"
+    type="text"
+    value=""
+  />
+  <input
+    name="quote"
+    onChange={[Function]}
+    placeholder="Student quote"
+    type="text"
+    value=""
+  />
+  <input
+    name="superlative"
+    onChange={[Function]}
+    placeholder="Student superlative"
+    type="text"
+    value=""
+  />
+  <button
+    onClick={[Function]}
+  >
+    Add student
+  </button>
+</form>
+`;
