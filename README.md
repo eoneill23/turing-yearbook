@@ -24,3 +24,4 @@ The controlled form compnent allows a user to create new students.
 * Build out and utilize both class and functional React components.
 
 ## Images
+![Staff screenshot](./src/Images/React_yearbook_staff.png)
