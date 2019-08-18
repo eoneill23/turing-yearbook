@@ -25,3 +25,4 @@ The controlled form compnent allows a user to create new students.
 
 ## Images
 ![Staff screenshot](./src/Images/React_yearbook_staff.png)
+![Student screenshot](./src/Images/React_yearbook_student.png)
