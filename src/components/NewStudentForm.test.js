@@ -19,5 +19,15 @@ describe('Form', () => {
 
     expect(wrapper.state('title')).toEqual('hello');
     expect(wrapper.state('description')).toEqual('my friend');
+  });
+
+  it('should fire the submitStudent prop when the submit button is clicked', () => {
+    const addStudentMock = jest.fn();
+    const wrapper = shallow(<NewStudentForm addStudent={addStudentMock}/>);
+    const eventMock = { preventDefault: jest.fn() };
+
+    wrapper.find('button').simulate('click', eventMock);
+    wrapper.instance().submitStudent(eventMock);
+    expect(addStudentMock).toHaveBeenCalled();
   })
 });

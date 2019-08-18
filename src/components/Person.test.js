@@ -26,7 +26,7 @@ describe('Person', () => {
       id={1}
       deleteStudent={jest.fn()}
       type={'students'}
-    />)
+    />);
 
     expect(wrapper).toMatchSnapshot();
   });
