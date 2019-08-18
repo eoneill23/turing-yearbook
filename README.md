@@ -8,6 +8,7 @@ The controlled form compnent allows a user to create new students.
 
 ## Author
 
+* Eric O'Neill ([eoneill23](https://github.com/eoneill23))
 
 ## Setup
 
@@ -23,3 +24,5 @@ The controlled form compnent allows a user to create new students.
 * Build out and utilize both class and functional React components.
 
 ## Images
+![Staff screenshot](./src/Images/React_yearbook_staff.png)
+![Student screenshot](./src/Images/React_yearbook_students.png)
