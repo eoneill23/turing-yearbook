@@ -1,0 +1,17 @@
+.studentForm {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: space-around;
+  margin: auto;
+  width: 20%;
+}
+
+h3 {
+  margin: 0;
+}
+
+.formButton {
+  margin: 0 auto 0 auto;
+  width: 70%;
+}

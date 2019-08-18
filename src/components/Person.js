@@ -1,6 +1,5 @@
 import React from 'react';
 import './Person.css';
-// import { tsPropertySignature } from '@babel/types';
 
 let Person = ({name, quote, superlative, photo, id, deleteStudent, type}) => {
   let button;

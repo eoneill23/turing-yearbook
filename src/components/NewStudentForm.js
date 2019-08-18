@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './NewStudentForm.css'
 
 class NewStudentForm extends Component {
   constructor() {
@@ -18,6 +19,7 @@ class NewStudentForm extends Component {
     event.preventDefault();
     let newStudent = {
       id: Date.now(),
+      photo: 'http://4.bp.blogspot.com/-ZjhykHvukQE/Txl4IFWIeuI/AAAAAAAAEuE/8COvzOwGjyw/s1600/Funny-Llama-01.jpg',
       ...this.state
     }
     this.props.addStudent(newStudent);
@@ -30,7 +32,8 @@ class NewStudentForm extends Component {
 
   render() {
     return (
-      <form>
+      <form className='studentForm'>
+        <h3>Add a student</h3>
         <input 
           type='text'
           placeholder='Student name'
@@ -52,7 +55,7 @@ class NewStudentForm extends Component {
           value={this.state.superlative}
           onChange={event => this.handleChange(event)}
         />
-        <button onClick={event => this.submitStudent(event)}>Add student</button>
+        <button className='formButton' onClick={event => this.submitStudent(event)}>Add student</button>
       </form>
     )
   }
