@@ -8,6 +8,7 @@ The controlled form compnent allows a user to create new students.
 
 ## Author
 
+* Eric O'Neill ([eoneill23](https://github.com/eoneill23))
 
 ## Setup
 
