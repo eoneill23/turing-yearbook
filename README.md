@@ -2,9 +2,9 @@
 
 This is my first attempt at using the React framework. This application is built with two class components (an 'App' class and a controlled form) as well as two functional components.
 
-The goal of this project was to create a yearbook-style application that displayed photos, names, quotes, and superlatives of Turing School staff as well as random student mock data. Users can update any name, quote, or superlative.
+The goal of this project was to build and test a yearbook-style application that displayed photos, names, quotes, and superlatives of Turing School staff as well as random student mock data. Users can update any name, quote, or superlative.
 
-The controlled form compnent allows a user to create new students.
+The controlled form component allows a user to create new students.
 
 ## Author
 
@@ -15,6 +15,10 @@ The controlled form compnent allows a user to create new students.
 1. Clone the repo using `git clone`.
 2. Install the dependencies by running `npm install`.
 3. Enjoy!
+
+## Testing 
+
+After cloning the repo down, run the test suite with `npm test`.
 
 ## Objectives
 
