@@ -6,10 +6,6 @@ The goal of this project was to build and test a yearbook-style application that
 
 The controlled form component allows a user to create new students.
 
-## Author
-
-* Eric O'Neill ([eoneill23](https://github.com/eoneill23))
-
 ## Setup
 
 1. Clone the repo using `git clone`.
