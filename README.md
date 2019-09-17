@@ -14,11 +14,14 @@ The controlled form component allows a user to create new students.
 
 1. Clone the repo using `git clone`.
 2. Install the dependencies by running `npm install`.
-3. Enjoy!
+3. Run the test suite with `npm test`.
+4. Enjoy!
 
-## Testing 
-
-After cloning the repo down, run the test suite with `npm test`.
+## Learning goals
+* Learn to pass information between components using props.
+* Learn to write readable JSX (your render methods/return statements should be clean and simple).
+* Use propTypes for every component receiving props.
+* Learn how to unit test React components including snapshot testing, methods, and changes in state.
 
 ## Objectives
 
